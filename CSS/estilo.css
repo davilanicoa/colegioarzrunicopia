@@ -1,6 +1,5 @@
-@media screen and (min-width:320px) and (max-width:767px) {
+
  
- }
 * {
   padding: 0;
   margin: 0;
@@ -68,6 +67,7 @@ body {
   width: 150%;
 }
 nav {
+  
   background-image: linear-gradient(to right, rgb(248,144,0), white);
   text-align: center;
   font-weight: bold;
@@ -87,7 +87,7 @@ h1 {
 
 table{
   
-  background-color: burlywood;
+  background-image: linear-gradient(to left, blanchedalmond, rgb(236, 184, 110));
   padding: 0%;
   margin-top: 1px;
   margin-left: 0px;
@@ -155,21 +155,23 @@ p{
 }
 .grilla{
   display: grid;
-  margin-left: 8%;
-  grid-template-columns: 400px 400px;
-  grid-template-rows: 500px 500px;
+  margin-left: 10%;
+  grid-template-columns: 30% 30%;
+  grid-template-rows: 100% 100%;  
  
   
   
- 
+
 }
 .Item1{
   width: 118%;
   height: 100%;
-  background-color: khaki;
+  background-image: linear-gradient(to left,  rgb(236, 184, 110), blanchedalmond );
   align-self: flex-end;
   margin-left: 75px;
   text-align: center;
+  
+  
 
   
   
@@ -178,7 +180,7 @@ p{
 .Item2{
   width: 125%;
   height: 100%;
-  background-color: royalblue;
+  background-image: linear-gradient(to left,  blanchedalmond,  rgb(236, 184, 110));
   align-self: flex-end;
   margin-left: 150px;
   text-align: center;
@@ -187,31 +189,9 @@ p{
   
 }
 
-.Item3{
-  width: 118%;
-  height: 100%;
-  background-color: brown;
-  margin-left: 75px;
-  text-align: center;
- 
-  
-  
-  
-  
-  
-}
 
-.Item4{
-  width: 125%;
-  height: 100%;
-  background-color: burlywood;
-  margin-left: 150px;
-  text-align: center;
-  
 
-  
-  
-}
+
 
 .Image1{
 
@@ -247,17 +227,27 @@ p{
 
 }
 
-.Mapa{
-  
-  margin-left: 375px;
-  border: 2px solid black
-
-}
-
-.VideoConocenos{
+.VIDEOCONOCENOS{
   justify-content: center;
-  margin-left: 28%;
+  margin-right: 1%;
+  
+  
   
 
 }
 
+
+
+.parrafoConocenos{
+  
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
+  background-image: linear-gradient(to left,  rgb(248,144,0), blanchedalmond );
+  
+  
+}
+
+.Mapa{
+  margin-left: 375px;
+}
